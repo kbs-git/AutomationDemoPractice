@@ -10,15 +10,15 @@ public class RadioButtons extends BaseClass {
     public void radioButtton(String str) throws InterruptedException {
         driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div/div[1]/div/div/div[1]/span/div/div[1]")).click();
         driver.findElement(By.id("item-2")).click();
+        JavascriptExecutor js=(JavascriptExecutor)driver;
         if(str.equalsIgnoreCase("Yes")){
 
             WebElement ele=driver.findElement(By.xpath("//label[@for='yesRadio']"));
-            JavascriptExecutor js=(JavascriptExecutor)driver;
+
             js.executeScript("arguments[0].scrollIntoView(true);",ele);
             ele.click();
         }else {
             WebElement ele=driver.findElement(By.xpath("//*[text()='Impressive']"));
-            JavascriptExecutor js=(JavascriptExecutor)driver;
             js.executeScript("arguments[0].scrollIntoView(true);",ele);
             ele.click();
         }

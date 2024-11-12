@@ -1,31 +1,23 @@
 package com.qapitol.Pages;
 
+import com.qapitol.Base.BaseClass;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 
-public class checkBoxPage {
-    static WebDriver driver;
 
-    public checkBoxPage(WebDriver driver){
-        checkBoxPage.driver =driver;
-    }
+public class checkBoxPage extends BaseClass {
 
-    @FindBy(id="item-1")
-    WebElement checboxMenu;
-    @FindBy(xpath="//*[@id=\"app\"]/div/div/div/div[1]/div/div/div[1]/span/div/div[1]")
-    WebElement elements;
-    @FindBy(xpath = "//button[@title='Expand all']") WebElement expandAll;
-    @FindBy(xpath = "//button[@title='Collapse all']") WebElement collapseAll;
-    @FindBy(xpath = "//button[@title='Toggle']") WebElement toggle;
 
     public void checkBoxMethod() throws InterruptedException {
-        elements.click();
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div/div[1]/div/div/div[1]/span/div/div[1]")).click();
         Thread.sleep(2000);
-        checboxMenu.click();
+        driver.findElement(By.id("item-1")).click();
         Thread.sleep(1000);
         JavascriptExecutor js=(JavascriptExecutor)driver;
+        WebElement expandAll= driver.findElement(By.xpath("//button[@title='Expand all']"));
+        WebElement collapseAll= driver.findElement(By.xpath("//button[@title='Collapse all']"));
+        WebElement toggle=driver.findElement(By.xpath("//button[@title='Toggle']"));
         js.executeScript("arguments[0].click()",expandAll);
         js.executeScript("arguments[0].click()",collapseAll);
         js.executeScript("arguments[0].click()",toggle);
