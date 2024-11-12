@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8a68f01-9843-4036-8af6-cb59cbedbcc1" name="Changes" comment="new changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Automation1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kbs-git&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kbs-git/AutomationDemoPractice.git&quot;,
+    &quot;accountId&quot;: &quot;8ea6aba2-525e-4a17-9317-0d9d538aaca5&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ogo7RYQ1WA1NuRe04QZUwFqyWg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.LoginTest (1).executor": "Run",
+    "TestNG.LoginTest.executor": "Run",
+    "TestNG.LoginTest.loginTesting (1).executor": "Run",
+    "TestNG.LoginTest.loginTesting.executor": "Run",
+    "TestNG.TestingDemoQASite.TextBoxElements.executor": "Run",
+    "TestNG.TestingDemoQa.TextBoxElements.executor": "Run",
+    "TestNG.TestingDemoQa.checkBoxElements.executor": "Run",
+    "TestNG.TestingDemoQa.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Qapitol QA/Documents/AutomationTraining",
+    "onboarding.tips.debug.path": "C:/Users/Qapitol QA/IdeaProjects/DemoAutomation/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Qapitol QA\IdeaProjects\DemoAutomation\src\main\resources\Files" />
+      <recent name="C:\Users\Qapitol QA\IdeaProjects\DemoAutomation\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Qapitol QA\Documents\AutomationTraining\AutomationDemoPractice" />
+      <recent name="C:\Users\Qapitol QA\Documents\AutomationTraining" />
+      <recent name="C:\Users\Qapitol QA\IdeaProjects\DemoAutomation\src\main\resources\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestingDemoQa">
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qapitolKDD.testCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qapitolKDD.testCase" />
+      <option name="MAIN_CLASS_NAME" value="qapitolKDD.testCase.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingDemoQASite.TextBoxElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qapitol.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQASite" />
+      <option name="METHOD_NAME" value="TextBoxElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingDemoQa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qapitol.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQa" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingDemoQa.TextBoxElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qapitol.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQa" />
+      <option name="METHOD_NAME" value="TextBoxElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingDemoQa.checkBoxElements" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qapitol.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQa" />
+      <option name="METHOD_NAME" value="checkBoxElements" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestingDemoQa" />
+        <item itemvalue="TestNG.TestingDemoQa.checkBoxElements" />
+        <item itemvalue="TestNG.TestingDemoQa.TextBoxElements" />
+        <item itemvalue="TestNG.TestingDemoQASite.TextBoxElements" />
+        <item itemvalue="TestNG.LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8a68f01-9843-4036-8af6-cb59cbedbcc1" name="Changes" comment="" />
+      <created>1731300415487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731300415487</updated>
+    </task>
+    <task id="LOCAL-00001" summary="new changes">
+      <option name="closed" value="true" />
+      <created>1731351991450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731351991450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
