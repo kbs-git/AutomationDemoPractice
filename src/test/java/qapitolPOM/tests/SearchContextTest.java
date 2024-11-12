@@ -17,8 +17,8 @@ public class SearchContextTest extends BaseClassPOM {
     public void setUp(){
         try {
             intialization(ReadPropFile.getObject("browser"));
-            driver.get(ReadPropFile.getObject("pageObjecturl"));
-            serachContext=new SerachContext();
+            driver.get(ReadPropFile.getObject("amazonUrl"));
+            serachContext=new SerachContext(BaseClassPOM.driver);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -29,6 +29,6 @@ public class SearchContextTest extends BaseClassPOM {
     }
     @Test
     public void searchContextTest(){
-
+        serachContext.searchForItem("Apple iPhone");
     }
 }

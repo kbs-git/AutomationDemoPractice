@@ -5,20 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e685975e-7eb2-474b-a52d-cd8a8eb03901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/BrokenLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/Buttons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/Links.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/UploadAndDownload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/Utils/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/RadioButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/RadioButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/TextBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/TextBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/WebTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/WebTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/checkBoxPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/checkBoxPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/TestingDemoQa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/TestingDemoQa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/RadioButtons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/RadioButtons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/TextBoxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/TextBoxPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/checkBoxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/checkBoxPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/TestCases/TestingDemoQa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapitol/TestCases/TestingDemoQa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/SerachContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/SerachContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/SearchContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/SearchContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/pageobjects/SerachContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/qapitolPOM/pageobjects/SerachContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/tests/SearchContextTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/qapitolPOM/tests/SearchContextTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +72,25 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestingDemoQa.uploadFiles">
+  <component name="RunManager" selected="TestNG.SearchContextTest.searchContextTest">
+    <configuration name="SearchContextTest.searchContextTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qapitolPOM.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qapitolPOM.tests" />
+      <option name="MAIN_CLASS_NAME" value="qapitolPOM.tests.SearchContextTest" />
+      <option name="METHOD_NAME" value="searchContextTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestingDemoQa.brokenLinks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestProject" />
       <extension name="coverage">
@@ -133,24 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingDemoQa.textBoxElements" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MavenTestProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qapitol.TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQa" />
-      <option name="METHOD_NAME" value="textBoxElements" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestingDemoQa.uploadFiles" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MavenTestProject" />
       <extension name="coverage">
@@ -171,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchContextTest.searchContextTest" />
         <item itemvalue="TestNG.TestingDemoQa.uploadFiles" />
         <item itemvalue="TestNG.TestingDemoQa.brokenLinks" />
         <item itemvalue="TestNG.TestingDemoQa.clickOnLinks" />
         <item itemvalue="TestNG.TestingDemoQa.buttonsTest" />
-        <item itemvalue="TestNG.TestingDemoQa.textBoxElements" />
       </list>
     </recent_temporary>
   </component>
