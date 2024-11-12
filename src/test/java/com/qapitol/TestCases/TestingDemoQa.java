@@ -1,6 +1,7 @@
 package com.qapitol.TestCases;
 
 import com.qapitol.Base.BaseClass;
+import com.qapitol.Pages.RadioButtons;
 import com.qapitol.Pages.TextBoxPage;
 import com.qapitol.Pages.checkBoxPage;
 import org.openqa.selenium.support.PageFactory;
@@ -22,14 +23,19 @@ public class TestingDemoQa {
         TextBoxPage text= PageFactory.initElements(driver, TextBoxPage.class);
         text.login("kavya","B S","Bengaluru","Davanagere");
     }
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void checkBoxElements() throws InterruptedException {
         checkBoxPage check= PageFactory.initElements(driver, checkBoxPage.class);
         check.checkBoxMethod();
     }
+    @Test(enabled = true)
+    public void radioButtonsElement() throws InterruptedException {
+        RadioButtons radio= new RadioButtons();
+        radio.radioButtton("Yes");
+    }
 
     @AfterTest
-    public void tearDown(){
-         BaseClass.quit();
+    public void terminate(){
+        // BaseClass.quit();
     }
 }

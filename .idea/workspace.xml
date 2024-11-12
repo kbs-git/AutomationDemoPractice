@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8a68f01-9843-4036-8af6-cb59cbedbcc1" name="Changes" comment="new changes" />
+    <list default="true" id="e685975e-7eb2-474b-a52d-cd8a8eb03901" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/FormsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/RadioButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/WebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/RegistrationFb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/SerachContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/RegistraionFbTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/SearchContextTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/RadioButtonsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/TestingDemoQa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/TestingDemoQa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapital/util/ReadExcel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapital/util/ReadExcel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapital/util/ReadExcel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapital/util/ReadExcel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Base/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapitol/Base/BaseClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/RadioButtonsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/TextBoxPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/TextBoxPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/TestCases/TestingDemoQa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/qapitol/TestCases/TestingDemoQa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolKDD/testCase/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/qapitolKDD/testCase/LoginTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,93 +39,56 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="Automation1" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;kbs-git&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kbs-git"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kbs-git/AutomationDemoPractice.git&quot;,
-    &quot;accountId&quot;: &quot;8ea6aba2-525e-4a17-9317-0d9d538aaca5&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kbs-git/AutomationDemoPractice.git",
+    "accountId": "8ea6aba2-525e-4a17-9317-0d9d538aaca5"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2ogo7RYQ1WA1NuRe04QZUwFqyWg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2ojf04N1NXfIoSHatsq69fPUERi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.LoginTest (1).executor": "Run",
-    "TestNG.LoginTest.executor": "Run",
-    "TestNG.LoginTest.loginTesting (1).executor": "Run",
-    "TestNG.LoginTest.loginTesting.executor": "Run",
-    "TestNG.TestingDemoQASite.TextBoxElements.executor": "Run",
-    "TestNG.TestingDemoQa.TextBoxElements.executor": "Run",
-    "TestNG.TestingDemoQa.checkBoxElements.executor": "Run",
+    "TestNG.LoginFaceBook.executor": "Run",
+    "TestNG.LoginFaceBook.loginFaceBookTest.executor": "Run",
+    "TestNG.RegistraionTestFb.registrationFaceBookTest.executor": "Run",
     "TestNG.TestingDemoQa.executor": "Run",
+    "TestNG.TestingDemoQa.radioButtonsElement.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Qapitol QA/Documents/AutomationTraining",
-    "onboarding.tips.debug.path": "C:/Users/Qapitol QA/IdeaProjects/DemoAutomation/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
-  },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
-    ]
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Qapitol QA\IdeaProjects\DemoAutomation\src\main\resources\Files" />
-      <recent name="C:\Users\Qapitol QA\IdeaProjects\DemoAutomation\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Qapitol QA\Documents\AutomationTraining\AutomationDemoPractice" />
-      <recent name="C:\Users\Qapitol QA\Documents\AutomationTraining" />
-      <recent name="C:\Users\Qapitol QA\IdeaProjects\DemoAutomation\src\main\resources\config" />
-    </key>
-  </component>
-  <component name="RunManager" selected="TestNG.TestingDemoQa">
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoAutomation" />
+  <component name="RunManager" selected="TestNG.TestingDemoQa.radioButtonsElement">
+    <configuration name="LoginFaceBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="qapitolKDD.testCase.*" />
+          <option name="PATTERN" value="qapitolPOM.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="qapitolKDD.testCase" />
-      <option name="MAIN_CLASS_NAME" value="qapitolKDD.testCase.LoginTest" />
+      <option name="PACKAGE_NAME" value="qapitolPOM.tests" />
+      <option name="MAIN_CLASS_NAME" value="qapitolPOM.tests.LoginFaceBookTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -112,17 +96,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingDemoQASite.TextBoxElements" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoAutomation" />
+    <configuration name="LoginFaceBookTest.loginFaceBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qapitol.TestCases.*" />
+          <option name="PATTERN" value="qapitolPOM.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQASite" />
-      <option name="METHOD_NAME" value="TextBoxElements" />
+      <option name="PACKAGE_NAME" value="qapitolPOM.tests" />
+      <option name="MAIN_CLASS_NAME" value="qapitolPOM.tests.LoginFaceBookTest" />
+      <option name="METHOD_NAME" value="loginFaceBookTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistraionFbTest.registrationFaceBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qapitolPOM.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qapitolPOM.tests" />
+      <option name="MAIN_CLASS_NAME" value="qapitolPOM.tests.RegistraionFbTest" />
+      <option name="METHOD_NAME" value="registrationFaceBookTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,7 +133,7 @@
       </method>
     </configuration>
     <configuration name="TestingDemoQa" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoAutomation" />
+      <module name="MavenTestProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qapitol.TestCases.*" />
@@ -147,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingDemoQa.TextBoxElements" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoAutomation" />
+    <configuration name="TestingDemoQa.radioButtonsElement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qapitol.TestCases.*" />
@@ -157,25 +159,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
       <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQa" />
-      <option name="METHOD_NAME" value="TextBoxElements" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestingDemoQa.checkBoxElements" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemoAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qapitol.TestCases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
-      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQa" />
-      <option name="METHOD_NAME" value="checkBoxElements" />
+      <option name="METHOD_NAME" value="radioButtonsElement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -185,103 +169,23 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestingDemoQa.radioButtonsElement" />
         <item itemvalue="TestNG.TestingDemoQa" />
-        <item itemvalue="TestNG.TestingDemoQa.checkBoxElements" />
-        <item itemvalue="TestNG.TestingDemoQa.TextBoxElements" />
-        <item itemvalue="TestNG.TestingDemoQASite.TextBoxElements" />
-        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.RegistraionFbTest.registrationFaceBookTest" />
+        <item itemvalue="TestNG.LoginFaceBookTest" />
+        <item itemvalue="TestNG.LoginFaceBookTest.loginFaceBookTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f8a68f01-9843-4036-8af6-cb59cbedbcc1" name="Changes" comment="" />
-      <created>1731300415487</created>
+      <changelist id="e685975e-7eb2-474b-a52d-cd8a8eb03901" name="Changes" comment="" />
+      <created>1731387680661</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731300415487</updated>
+      <updated>1731387680661</updated>
     </task>
-    <task id="LOCAL-00001" summary="new changes">
-      <option name="closed" value="true" />
-      <created>1731351991450</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1731351991450</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="main" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="*" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="user">
-                    <value>
-                      <list>
-                        <option value="*" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="new changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
