@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e685975e-7eb2-474b-a52d-cd8a8eb03901" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/Utils/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/Elements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/BrokenLinks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/Buttons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/Links.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/RadioButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/TextBoxPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/UploadAndDownload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/WebTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/checkBoxPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/TestingDemoQa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/TestingDemoQa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/Utils/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/Utils/Utility.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/SerachContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/SerachContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/SearchContextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/SearchContextTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/data.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/pageobjects/SerachContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/qapitolPOM/pageobjects/SerachContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/tests/SearchContextTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/qapitolPOM/tests/SearchContextTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/RegistraionFbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/RegistraionFbTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +66,7 @@
     "TestNG.LoginFaceBook.executor": "Run",
     "TestNG.LoginFaceBook.loginFaceBookTest.executor": "Run",
     "TestNG.RegistraionTestFb.registrationFaceBookTest.executor": "Run",
+    "TestNG.SearchContextTest.searchContextTest.executor": "Run",
     "TestNG.TestingDemoQa.brokenLinks.executor": "Run",
     "TestNG.TestingDemoQa.buttonsTest.executor": "Run",
     "TestNG.TestingDemoQa.clickOnLinks.executor": "Run",

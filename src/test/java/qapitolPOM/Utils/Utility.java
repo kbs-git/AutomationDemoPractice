@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Utility extends BaseClassPOM {
     public static  void contextSearch(String quary){
-        List<WebElement> elements=driver.findElements(By.xpath(""));
+        List<WebElement> elements=driver.findElements(By.xpath("//span[@class='a-declarative']/div/div/div/div[2]/div/div/div/h2"));
         if(elements.size()>0){
             for (WebElement element:elements){
                 String text=element.getText();

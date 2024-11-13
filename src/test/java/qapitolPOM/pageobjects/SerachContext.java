@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import qapitolPOM.base.BaseClassPOM;
 
+import static qapitolPOM.Utils.Utility.contextSearch;
+
 public class SerachContext extends BaseClassPOM {
 
     WebDriver driver;
@@ -19,21 +21,13 @@ public class SerachContext extends BaseClassPOM {
     @FindBy(id = "nav-search-submit-button")
     WebElement searchButton;
 
-    // Method to enter the search term
-    public void enterSearchTerm(String searchTerm) {
-        search.clear();
-        search.sendKeys(searchTerm);
-    }
-
-    // Method to click the search button
-    public void clickSearchButton() {
-        searchButton.click();
-    }
 
     // Method to perform the search in one step
     public void searchForItem(String searchTerm) {
-        enterSearchTerm(searchTerm);
-        clickSearchButton();
+        search.clear();
+        search.sendKeys(searchTerm);
+        searchButton.click();
+        contextSearch(searchTerm);
     }
 
 }
