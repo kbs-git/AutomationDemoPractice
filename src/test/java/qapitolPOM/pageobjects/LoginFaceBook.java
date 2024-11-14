@@ -16,7 +16,7 @@ public class LoginFaceBook extends BaseClassPOM{
     @FindBy(id="email")
     WebElement email;
     @FindBy(id="pass") WebElement password;
-    @FindBy(xpath = "//*[@name=\"login\"]") WebElement login;
+    @FindBy(xpath = "//*[@name='login']") WebElement login;
 
     public void loginFaceBook(String mail, String pwd1){
         email.sendKeys(mail);

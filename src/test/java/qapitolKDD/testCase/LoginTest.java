@@ -22,7 +22,7 @@ public class LoginTest {
     public void signUp(){
         keyEngine=new KeyEngine();
         report= new ExtentReports();
-        ExtentSparkReporter spark = new ExtentSparkReporter("target/Spark.html");
+        ExtentSparkReporter spark = new ExtentSparkReporter("Spark.html");
         report.attachReporter(spark);
     }
 

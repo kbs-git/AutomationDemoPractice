@@ -11,7 +11,8 @@ public class ReadPropFile {
 
     private static void loadData() throws IOException, FileNotFoundException {
         prop = new Properties();
-
+        //System.getProperty("user.dir")+"propertFilePath";
+      //  File f=new File(System.setpropert(user.dir)+"propertFilePath");
         File f = new File(propertFilePath);
 
         FileReader obj = new FileReader(f);

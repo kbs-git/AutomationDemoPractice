@@ -88,7 +88,6 @@ public class KeyEngine {
             default:
                 System.out.println("The locator is invalid =" + locator + " " + locatorValue);
         }
-
         return webelement;
 
     }

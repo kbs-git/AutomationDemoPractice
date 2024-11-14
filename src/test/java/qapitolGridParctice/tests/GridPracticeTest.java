@@ -16,7 +16,7 @@ public class GridPracticeTest{
             DesiredCapabilities capability=new DesiredCapabilities();
             capability.setBrowserName("chrome");
             capability.setBrowserName("MicrosoftEdge");
-            WebDriver driver=new RemoteWebDriver(new URL("http://192.168.2.119:4444"),capability);
+            WebDriver driver=new RemoteWebDriver(new URL("http://192.168.2.65:4444"),capability);
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
             driver.get("https://www.selenium.dev/");

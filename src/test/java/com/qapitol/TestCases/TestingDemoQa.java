@@ -2,14 +2,11 @@ package com.qapitol.TestCases;
 
 import com.qapitol.Base.BaseClass;
 import com.qapitol.Pages.*;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-
-import static com.qapitol.Base.BaseClass.driver;
 
 public class TestingDemoQa {
     Elements ele=new Elements();

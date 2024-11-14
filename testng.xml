@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Qapitol QA/IdeaProjects/DemoAutomation">
+        <classes>
+            <class name="com.qapitol.TestCases.TestingDemoQa">
+                <methods>
+                    <include name="textBoxElements"/>
+                    <include name="checkBoxElements"/>
+                    <include name="radioButtonsElement"/>
+                    <include name="webTableElement"/>
+                    <include name="buttonsTest"/>
+                    <include name="clickOnLinks"/>
+                    <include name="brokenLinks"/>
+                    <include name="uploadFiles"/>
+                </methods>
+            </class>
+            <class name="com.grid.tests.GridPracticeTest">
+                <methods>
+                    <include name="gridTest"/>
+                </methods>
+            </class>
+            <class name="qapitolKDD.testCase.LoginTest">
+                <methods><
+                        include name="loginTesting"/>
+                </methods>
+            </class>
+            <class name="qapitolPOM.tests.LoginFaceBookTest">
+                <methods>
+                    <include name="loginFaceBookTest"/>
+                </methods>
+            </class>
+            <class name="qapitolPOM.tests.RegistraionFbTest">
+                <methods>
+                    <include name="registrationFaceBookTest"/>
+                </methods>
+            </class>
+            <class name="qapitolPOM.tests.SearchContextTest">
+                <methods>
+                    <include name="searchContextTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
