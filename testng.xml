@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/Qapitol QA/IdeaProjects/DemoAutomation">
         <classes>
-            <class name="com.qapitol.TestCases.TestingDemoQa">
+            <class name="demoqatestCases.TestingDemoQa">
                 <methods>
                     <include name="textBoxElements"/>
                     <include name="checkBoxElements"/>
@@ -15,27 +15,27 @@
                     <include name="uploadFiles"/>
                 </methods>
             </class>
-            <class name="com.grid.tests.GridPracticeTest">
+            <class name="gridParcticeTests.GridPracticeTest">
                 <methods>
                     <include name="gridTest"/>
                 </methods>
             </class>
-            <class name="qapitolKDD.testCase.LoginTest">
-                <methods><
-                        include name="loginTesting"/>
+            <class name="keyWordDrivenTests.testCase.LoginTest">
+                <methods>
+                    <include name="loginTesting"/>
                 </methods>
             </class>
-            <class name="qapitolPOM.tests.LoginFaceBookTest">
+            <class name="tests.facebooktests.usingPom.LoginFaceBookTest">
                 <methods>
                     <include name="loginFaceBookTest"/>
                 </methods>
             </class>
-            <class name="qapitolPOM.tests.RegistraionFbTest">
+            <class name="tests.facebooktests.usingPom.RegistraionFbTest">
                 <methods>
                     <include name="registrationFaceBookTest"/>
                 </methods>
             </class>
-            <class name="qapitolPOM.tests.SearchContextTest">
+            <class name="tests.facebooktests.usingPom.SearchContextTest">
                 <methods>
                     <include name="searchContextTest"/>
                 </methods>

@@ -4,15 +4,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="963a5dbb-831f-4226-8412-e3f7b426804a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gridTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/AlertTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/AlertTests.java" afterDir="false" />
+    <list default="true" id="b94ca044-84db-4a6b-b89f-1edbdbdd47f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pages/demoQA/AlertsWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utilities/ReadPropFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/facebookTestsUsingPom/tests/LoginFaceBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/facebookTestsUsingPom/tests/RegistraionFbTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/facebookTestsUsingPom/tests/SearchContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/keyWordDrivenTests/testCase/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Base/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/AlertsWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/Elements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/demoQA/Elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Pages/FormsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/AlertTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqatestCases/AlertTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/TestCases/TestingDemoQa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqatestCases/TestingDemoQa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Utils/ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utilities/ReadExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/qapitol/Utils/ReadPropFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolGridParctice/tests/GridPracticeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gridParcticeTests/GridPracticeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolKDD/keyEngines/KeyEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/keyWordDrivenTests/keyEngines/KeyEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolKDD/testCase/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolKDD/utils/ExcelRead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolKDD/utils/ExtentListner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolKDD/utils/ExtentSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/Utils/Utility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/base/BaseClassPOM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/LoginFaceBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/faceBookpages/LoginFaceBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/RegistrationFb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/faceBookpages/RegistrationFb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/pageobjects/SerachContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pages/faceBookpages/SerachContext1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/LoginFaceBookTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/RegistraionFbTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/qapitolPOM/tests/SearchContextTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/data.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/data.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapital/util/ReadExcel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapital/util/ReadExcel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Base/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/AlertsWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/Elements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Pages/FormsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/TestCases/AlertTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/TestCases/TestingDemoQa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/qapitol/Utils/ReadPropFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolKDD/keyEngines/KeyEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/qapitolKDD/keyEngines/KeyEngine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolKDD/testCase/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/qapitolKDD/testCase/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolKDD/utils/ExcelRead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolKDD/utils/ExtentListner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolKDD/utils/ExtentSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/Utils/Utility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/base/BaseClassPOM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/pageobjects/LoginFaceBook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/pageobjects/RegistrationFb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/pageobjects/SerachContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/tests/LoginFaceBookTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/tests/RegistraionFbTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/qapitolPOM/tests/SearchContextTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,54 +79,77 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;kbs-git&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kbs-git/AutomationDemoPractice.git&quot;,
-    &quot;accountId&quot;: &quot;8ea6aba2-525e-4a17-9317-0d9d538aaca5&quot;
-  }
-}</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2omvbs07lPHU6aXxz6jWu2R7EaY" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2opkIqnhog3xdspCXExWpjM9pMX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C:/Users/Qapitol QA/IdeaProjects/DemoAutomation/gridTest.xml.executor": "Run",
-    "TestNG.GridPracticeTest.executor": "Run",
+    "TestNG.LoginFaceBookTest.loginFaceBookTest.executor": "Run",
     "TestNG.LoginTest.executor": "Run",
+    "TestNG.TestingDemoQa.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Qapitol QA/IdeaProjects/DemoAutomation",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="TestNG.LoginFaceBookTest.loginFaceBookTest">
+    <configuration name="LoginFaceBookTest.loginFaceBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="facebooktests.usingPom.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="facebooktests.usingPom.tests" />
+      <option name="MAIN_CLASS_NAME" value="facebooktests.usingPom.tests.LoginFaceBookTest" />
+      <option name="METHOD_NAME" value="loginFaceBookTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestingDemoQa" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MavenTestProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qapitol.TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qapitol.TestCases" />
+      <option name="MAIN_CLASS_NAME" value="com.qapitol.TestCases.TestingDemoQa" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginFaceBookTest.loginFaceBookTest" />
+        <item itemvalue="TestNG.TestingDemoQa" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="963a5dbb-831f-4226-8412-e3f7b426804a" name="Changes" comment="" />
-      <created>1731487645788</created>
+      <changelist id="b94ca044-84db-4a6b-b89f-1edbdbdd47f8" name="Changes" comment="" />
+      <created>1731573831104</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1731487645788</updated>
+      <updated>1731573831104</updated>
     </task>
     <servers />
   </component>
